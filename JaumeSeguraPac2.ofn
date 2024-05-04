@@ -1,0 +1,332 @@
+Prefix(:=<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13>
+Annotation(rdfs:seeAlso "https://creativecommons.org/licenses/by/4.0/")
+
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Aircraft>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Business>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#BusinessClass>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#CoupleLeisure>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#DateFlown>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#DatePublished>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#EconomyClass>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FamilyLeisure>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FirstClass>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Origin>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger_country>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Recommended>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewText>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewTitle>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SeatType>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SoloLeisure>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified>))
+Declaration(Class(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#OriginCountry>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesFrom>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesTo>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasAReview>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasPassenger>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommend>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommendation>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasReview>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasSeatType>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasTravelCategory>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#usesAircraft>))
+Declaration(DataProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasOverallRating>))
+Declaration(DataProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#isTripValid>))
+Declaration(DataProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#passengerIsFrom>))
+Declaration(DataProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validDestination>))
+Declaration(DataProperty(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validOrigin>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination001>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight001>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#PassengerCountry001>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating001>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified001>))
+Declaration(AnnotationProperty(rdfs:sameAs))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#OriginCountry> (isFromCountry)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#OriginCountry> "isFromCountry")
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#OriginCountry> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#OriginCountry> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger_country>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesFrom> (hasOrigin)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesFrom> "hasOrigin")
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesFrom> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesFrom> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Origin>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesTo> (hasDestination)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesTo> "hasDestination")
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesTo> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#fliesTo> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasAReview> (hasReviewData)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasAReview> "hasReviewData")
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasAReview> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasAReview> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasPassenger> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasPassenger>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasPassenger> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasPassenger> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommend> (writtenBy)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommend> "writtenBy")
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommend> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommend> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommendation> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommendation>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommendation> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasRecommendation> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Recommended>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasReview> (hasReviewText)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasReview> "hasReviewText")
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasReview> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasReview> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewText>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasSeatType> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasSeatType>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasSeatType> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SeatType>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasSeatType> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#BusinessClass>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasSeatType> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#EconomyClass>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasSeatType> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FirstClass>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasTravelCategory> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasTravelCategory>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasTravelCategory> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasTravelCategory> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Business>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasTravelCategory> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#CoupleLeisure>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasTravelCategory> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FamilyLeisure>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasTravelCategory> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SoloLeisure>)
+
+# Object Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#usesAircraft> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#usesAircraft>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#usesAircraft> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#usesAircraft> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#usesAircraft> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Aircraft>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasOverallRating> (hasRating)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasOverallRating> "Rating is between 1 and 10.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasOverallRating> "hasRating")
+DataPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasOverallRating> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating>)
+DataPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasOverallRating> DatatypeRestriction(xsd:integer xsd:minInclusive "1"^^xsd:integer xsd:maxInclusive "10"^^xsd:integer))
+
+# Data Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#isTripValid> (isTripValid)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#isTripValid> "Check if it's true or false.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#isTripValid> "isTripValid")
+SubDataPropertyOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#isTripValid> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#isTripValid> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified>)
+DataPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#isTripValid> xsd:boolean)
+
+# Data Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#passengerIsFrom> (PassengerIsFrom)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#passengerIsFrom> "String format")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#passengerIsFrom> "PassengerIsFrom")
+DataPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#passengerIsFrom> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger_country>)
+DataPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#passengerIsFrom> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validDestination> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validDestination>)
+
+DataPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validDestination> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination>)
+DataPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validDestination> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validOrigin> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validOrigin>)
+
+DataPropertyDomain(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validOrigin> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Origin>)
+DataPropertyRange(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validOrigin> xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Aircraft> (Aircraft)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Aircraft> "An aircraft is a vehicle that has wings and one or more engines and is capable of moving through the air")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Aircraft> "Aircraft")
+AnnotationAssertion(rdfs:sameAs <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Aircraft> "<http://dbpedia.org/resource/Airplane>")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Aircraft> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Business> (Business)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Business> "Business")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Business> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#BusinessClass> (BusinessClass)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#BusinessClass> "BusinessClass")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#BusinessClass> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SeatType>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#CoupleLeisure> (CoupleLeisure)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#CoupleLeisure> "CoupleLeisure")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#CoupleLeisure> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#DateFlown> (DateFlown)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#DateFlown> "Flight time.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#DateFlown> "DateFlown")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#DateFlown> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#DatePublished> (DatePublished)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#DatePublished> "DatePublished")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#DatePublished> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination> (Destination)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination> "Destination city
+.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination> "Destination")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#EconomyClass> (EconomyClass)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#EconomyClass> "EconomyClass")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#EconomyClass> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SeatType>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FamilyLeisure> (FamillyLeisure)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FamilyLeisure> "FamillyLeisure")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FamilyLeisure> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FirstClass> (FirstClass)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FirstClass> "FirstClass")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#FirstClass> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SeatType>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight> (Flight)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight> "Information about each flight.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight> "Flight")
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Origin> (Origin)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Origin> "Origin city")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Origin> "Origin")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Origin> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger> "A person who is traveling in an automobile, bus, train, airplane, or other conveyance, esp. one who is not the driver, pilot, or the like.")
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger> "Passenger")
+AnnotationAssertion(rdfs:sameAs <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger> "<http://dbpedia.org/resource/Passenger>")
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger_country> (PassengerCountry)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger_country> "Passenger's country of origin")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger_country> "PassengerCountry")
+AnnotationAssertion(rdfs:sameAs <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger_country> "http://dbpedia.org/resource/Spain")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger_country> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating> (Rating)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating> "classification according to grade or rank.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating> "Rating")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Recommended> (Recommended)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Recommended> "Check if user recommends that service.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Recommended> "Recommended")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Recommended> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData> (ReviewData)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData> "Review content.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData> "ReviewData")
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewText> (ReviewText)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewText> "ReviewText")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewText> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewTitle> (ReviewTitle)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewTitle> "ReviewTitle")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewTitle> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#ReviewData>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SeatType> (SeatType)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SeatType> "Different type of seat.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SeatType> "SeatType")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SeatType> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SoloLeisure> (SoloLeisure)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SoloLeisure> "SoloLeisure")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#SoloLeisure> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified> (TripVerified)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified> "Check if flight is verified.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified> "TripVerified")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight>)
+
+# Class: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller> (TravellerType)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller> "Type of traveller.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller> "TravellerType")
+SubClassOf(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Type_Traveller> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination001> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination001>)
+
+ClassAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination001>)
+DataPropertyAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#validDestination> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Destination001> "Spain")
+
+# Individual: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight001> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight001>)
+
+ClassAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight001>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#usesAircraft> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight001> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Flight001>)
+
+# Individual: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#PassengerCountry001> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#PassengerCountry001>)
+
+ClassAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Passenger_country> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#PassengerCountry001>)
+DataPropertyAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#passengerIsFrom> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#PassengerCountry001> "Brazil")
+
+# Individual: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating001> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating001>)
+
+ClassAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating001>)
+DataPropertyAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#hasOverallRating> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#Rating001> "10"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified001> (<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified001>)
+
+ClassAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified001>)
+DataPropertyAssertion(<http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#isTripValid> <http://www.semanticweb.org/jaume/ontologies/2024/3/untitled-ontology-13#TripVerified001> "true"^^xsd:boolean)
+
+
+)
